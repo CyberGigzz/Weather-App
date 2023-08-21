@@ -39,6 +39,25 @@ function App() {
           />
         </form>
       </header>
+      <main className=" flex px-20 py-16">
+        <div >
+          <h1 className="text-5xl mb-3">Tbilisi, Georgia</h1>
+          <p>Monday, 21 august</p>
+          <div className="flex gap-8 items-center py-8 border-b-2">
+            <img
+              className="w-24 h-24"
+              src="/src/assets/images/cloudy.png"
+              alt="weather condition icon"
+            />
+            <p className="text-6xl">34&deg;C</p>
+          </div>
+          <p className='text-3xl my-2 flex justify-center'>Mostly Sunny</p>
+          <p className='text-xl mb-5'>Feels like: 35&deg;C</p>
+          <p className='text-xl mb-5'>Wind: 5 MPH</p>
+          <p className='text-xl'>Humidity: 65 %</p>
+
+        </div>
+      </main>
     </div>
   );
 }
